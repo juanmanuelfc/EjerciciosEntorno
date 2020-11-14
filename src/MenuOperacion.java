@@ -14,20 +14,17 @@ public class MenuOperacion {
 
         switch (opcion){
             case 1:
-                //suma();
-                System.out.println("Funcion suma");
+                sumar();
                 break;
             case 2:
-                //resta();
-                System.out.println("Funcion resta");
+                restar();
                 break;
             case 3:
-                //multiplicar();
-                System.out.println("Funcion Multiplicar");
+                multiplicar();
                 break;
             case 4:
-                //dividir();
-                System.out.println("Funcion Dividir");
+                dividir();
+                break;
             case 5:
                 System.out.println("Saliendo del programa");
                 break;
@@ -35,6 +32,22 @@ public class MenuOperacion {
                 System.out.println("Selecciona un numero entre 1 y 5.");
                 menu();
         }
+    }
+
+    private static void sumar(){
+        System.out.println("Funcion sumar.");
+    }
+
+    private static void restar(){
+        System.out.println("Funcion restar.");
+    }
+
+    private static void multiplicar(){
+        System.out.println("Funcion multiplicar.");
+    }
+
+    private static void dividir(){
+        System.out.println("Funcion dividir.");
     }
 
     public static void main(String[] args) {
